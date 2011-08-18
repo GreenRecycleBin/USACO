@@ -18,7 +18,7 @@ int main()
 	ofstream fout("gift1.out");
 	
 	vector<string> giverNames;
-	vector<string>::iterator it;
+	vector<string>::const_iterator it;
 	map<string, pair<int, int> > givers;
 	
 	int numGivers;
